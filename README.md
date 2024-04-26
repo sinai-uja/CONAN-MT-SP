@@ -44,4 +44,6 @@ The evaluation metrics are:
 	- 0 (both CN are equally valid)  
 	- 1 (human generates a better CN)  
 	- 2 (machine generates a better CN)  
-	- 3 (neither CN is good)  
+	- 3 (neither CN is good)
+# Citation
+   María Estrella Vallecillo Rodríguez, María Victoria Cantero Romero, Isabel Cabrera De Castro, Arturo Montejo Ráez and María Teresa Martín Valdivia (2024). CONAN-MT-SP: A Spanish Corpus for Counternarrative using GPT Models. In Proceedings of The Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024). Torino (Italia) on 20-25 May, 2024 (Accepted and pending publication).
