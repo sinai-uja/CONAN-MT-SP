@@ -46,4 +46,28 @@ The evaluation metrics are:
 	- 2 (machine generates a better CN)  
 	- 3 (neither CN is good)
 # Citation
-   María Estrella Vallecillo Rodríguez, María Victoria Cantero Romero, Isabel Cabrera De Castro, Arturo Montejo Ráez and María Teresa Martín Valdivia (2024). CONAN-MT-SP: A Spanish Corpus for Counternarrative using GPT Models. In Proceedings of The Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024). Torino (Italia) on 20-25 May, 2024 (Accepted and pending publication).
+   María Estrella Vallecillo Rodríguez, María Victoria Cantero Romero, Isabel Cabrera De Castro, Arturo Montejo Ráez and María Teresa Martín Valdivia (2024). CONAN-MT-SP: A Spanish Corpus for Counternarrative using GPT Models. In Proceedings of The Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024). Torino (Italia) on 20-25 May, 2024.
+```
+@inproceedings{vallecillo-rodriguez-etal-2024-conan-mt,
+    title = "{CONAN}-{MT}-{SP}: A {S}panish Corpus for Counternarrative Using {GPT} Models",
+    author = "Vallecillo Rodr{\'\i}guez, Mar{\'\i}a Estrella  and
+      Cantero Romero, Maria Victoria  and
+      Cabrera De Castro, Isabel  and
+      Montejo R{\'a}ez, Arturo  and
+      Mart{\'\i}n Valdivia, Mar{\'\i}a Teresa",
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italy",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.326",
+    pages = "3677--3688",
+    abstract = "This paper describes the automated generation of CounterNarratives (CNs) for Hate Speech (HS) in Spanish using GPT-based models. Our primary objective is to evaluate the performance of these models in comparison to human capabilities. For this purpose, the English CONAN Multitarget corpus is taken as a starting point and we use the DeepL API to automatically translate into Spanish. Two GPT-based models, GPT-3 and GPT-4, are applied to the HS segment through a few-shot prompting strategy to generate a new CN. As a consequence of our research, we have created a high quality corpus in Spanish that includes the original HS-CN pairs translated into Spanish, in addition to the CNs generated automatically with the GPT models and that have been evaluated manually. The resulting CONAN-MT-SP corpus and its evaluation will be made available to the research community, representing the most extensive linguistic resource of CNs in Spanish to date. The results demonstrate that, although the effectiveness of GPT-4 outperforms GPT-3, both models can be used as systems to automatically generate CNs to combat the HS. Moreover, these models consistently outperform human performance in most instances.",
+}
+```
